@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+    font-family: 'Marck Script', cursive;
+}
+
+body{
+    font-family: 'Marck Script', cursive;
+    background-image: url('../images/circlebg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+textarea, input[type="text"], select {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+}
+
+#search {
+    background-color: #f3920b;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-left:88%;
+    font-family: 'Marck Script', cursive;
+    font-size: 15px;
+    width:70px;
+}
+
+.container1 {
+    max-width: 600px;
+    margin-top: 15%;
+    margin-left: 28%;
+    padding: 20px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    background-color:rgb(169, 219, 219);
+    overflow: hidden;
+    border-radius: 20px;
+}

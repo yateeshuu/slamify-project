@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+    font-family: 'Marck Script', cursive;
+}
+
+body {
+	font-family: 'Marck Script', cursive;
+	font: bolder;
+	/* background-color: #FEA1A1; */
+	background-image: url("../images/bodybgstars.png");
+	background-size: cover;
+
+}
+
+.container {
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 20px;
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+	background-color: rgb(164, 219, 219);
+    /* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTewl0HdLvXSPiC-l30r2crMC-vDomyus21qW_cDCR23S2NAoRrCWxnhVhnLfLmh1MisbM&usqp=CAU'); */
+    margin-top: 20px;
+}
+
+h1 {
+	text-align: center;
+}
+
+label {
+	display: block;
+	margin-bottom: 5px;
+	font:bolder;
+	font-size: 25px;
+}
+ /* form{
+	background-color:#ECCDB4;
+} */
+textarea, input[type="text"], select {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	border: 1px solid #000;
+}
+
+#questions-container {
+	margin-bottom: 10px;
+}
+
+.question {
+	border: 1px solid #ccc;
+	padding: 10px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	position: relative;
+}
+input[type="number"], input[type="date"] {
+	width: 100%;
+	box-sizing: border-box;
+	padding: 12px 20px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 4px;
+	background-color: #f1f1f1;
+  }
+  
+.remove-question {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	background-color: #e31313;
+	border: none;
+	color: #fff;
+	padding: 5px 10px;
+	border-radius: 5px;
+	cursor: pointer;
+	font-family: 'Marck Script', cursive;
+	font-size: 15px;
+}
+
+#add-question {
+	background-color: #f3920b;
+	color: #fff;
+	border: none;
+	padding: 10px;
+	border-radius: 15px;
+	cursor: pointer;
+	margin-bottom: 10px;
+    margin-left: 30%;
+	font-family: 'Marck Script', cursive;
+	font-size: 15px;
+}
+
+#submit {
+	background-color: #dd29ad;
+	color: #fff;
+	border: none;
+	padding: 10px;
+	border-radius: 15px;
+	cursor: pointer;
+	margin-left:5%;
+	font-family: 'Marck Script', cursive;
+	font-size: 15px;
+}

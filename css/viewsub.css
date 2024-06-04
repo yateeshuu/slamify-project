@@ -1,0 +1,126 @@
+body{
+  font-family: 'Marck Script', cursive;
+  background-image:url('../images/circlebg.png');
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+	/* justify-content: space-between; */
+    width:1000px;
+}
+
+#names {
+	flex-basis: 30%;
+	margin-right: 20px;
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+tr {
+	border-bottom: 1px solid #ccc;
+}
+
+td {
+	padding: 10px;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  th {
+    background-color: #07eb0f;
+    color: white;
+  }
+  
+  /* tr:nth-child(even) {
+    /* background-color: #d20303; */
+  /* } */ */
+  
+  tr:hover {
+    background-color: #4e1aec;
+  }
+  
+  td {
+    border: 1px solid #e1449a;
+  }
+  .form-container {
+    font-family: 'Marck Script', cursive;
+    padding: 20px;
+    margin: 0 20px;
+    margin-top: 50px;
+    margin-left: 50px;
+    background-color:rgb(169, 219, 219,0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* text-align: center;  */
+    width:100%;
+    height:100%;
+}
+
+.form-card {
+    padding: 20px;
+    margin: 20px;
+    background-color: rgb(137, 235, 235);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    text-align: left;
+    width:80%;
+    height:100%;
+}
+
+.form-card label {
+    margin-bottom: 20px;
+    white-space: normal; /* Allow the question text to wrap */
+  word-wrap:break-word;
+}
+  
+button.name {
+	background-color: #fff;
+	border: none;
+	cursor: pointer;
+	display: block;
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+  font-family: 'Marck Script', cursive;
+}
+
+button.name:hover {
+	background-color: #f5f5f5;
+}
+.question{
+    font-size: large;
+    margin-top: 10px;
+    font-family: 'Marck Script', cursive;
+    font:bold;
+    width:100%;
+    margin-left: 0px;
+    height:100%;
+}
+input{
+    margin-top: 10px;
+    width:100%;
+    height:30px;
+    border-radius:5px;
+    font-family: 'Marck Script', cursive;
+}
+
+  

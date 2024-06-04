@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Slamify-adminaccess</title>
+  <link rel="icon" href="android-chrome-192x192.png" type="image/x-icon">
+	<meta name="description" content="Share heartfelt messages and create lasting memories with Slamify. Craft personalized slam books for seamless sharing and cherish your connections.">
+    <link rel="stylesheet" type="text/css" href="../css/nav.css">
+    <style>
+        body{
+                overflow: hidden;
+            background-color: #ECCDB4;	
+            font-family: 'Marck Script', cursive;
+        }
+    
+            .container {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 50vh;
+                margin-bottom: 30px;
+            }
+    
+            .card {
+                width: 300px;
+                height: 130px;
+                background-color: #FEA1A1;
+                border-radius: 10px;
+                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+                margin: 20px;
+                padding: 20px;
+                text-align: center;
+                transition: transform 0.3s;
+            }
+    
+            .card:hover {
+                transform: scale(1.05);
+            }
+            h1{
+                font-size: 40px;
+                margin-top: 50px;
+                margin-left: 520px;
+            }
+    
+            .card a {
+                text-decoration: none;
+                color: #333;
+            }
+    
+            .card h2 {
+                font-size: 24px;
+                margin-bottom: 10px;
+            }
+    
+            .card p {
+                font-size: 25px;
+                color: #777;
+            }
+            #submit {
+	background-color: #f3920b;
+	color: #fff;
+	border: none;
+	padding: 10px;
+	border-radius: 15px;
+	cursor: pointer;
+	margin-left:10%;
+	font-family: 'Marck Script', cursive;
+	font-size: 15px;
+    margin-top: 10px;
+}
+        </style>
+</head>
+<body>
+    <header>
+        <nav class="nav">
+          <a href="../pages/main.html" class="logo">Slamify</a>
+      
+          <div class="hamburger">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+          </div>
+      
+          <div class="nav__link hide">
+          <a href="../pages/adminhome.html">home</a>
+          </div>
+        </nav>
+      </header>
+    <h1>Admin Control Panel</h1>
+    <div class="container">
+        <div class="card">
+        <h2>Add Admin</h2>
+        <form action="addadmin.php" method="post">
+            <label for="userid">User ID:</label>
+            <input type="text" id="userid" name="userid" required>
+            <br>
+            <button name="submit" id="submit">Add Admin</button>
+        </form>
+        </div>
+        <div class="card">
+            <h2>Delete Admin</h2>
+            <form action="deleteadmin.php" method="post">
+                <label for="username">User ID:</label>
+                <input type="text" id="username" name="username" required>
+                <br>
+                <button name="submit" id="submit">Delete Admin</button>
+            </form>
+    
+        </div>
+    </div>
+    <script src="../js/nav.js"></script>
+</body>
+</html>

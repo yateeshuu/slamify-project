@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Slamify-adminpage</title>
+  <link rel="icon" href="android-chrome-192x192.png" type="image/x-icon">
+	<meta name="description" content="Share heartfelt messages and create lasting memories with Slamify. Craft personalized slam books for seamless sharing and cherish your connections.">
+    <link rel="stylesheet" type="text/css" href="../css/nav.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Marck+Script">
+	<style type="text/css">
+		body{
+			overflow: hidden;
+	    background-color: #ECCDB4;	
+		font-family: 'Marck Script', cursive;
+	}
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 20vh;
+            margin-bottom: 30px;
+            margin-top: 70px;
+        }
+        .containerr{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 10vh;
+            margin-top: 100px;
+        }
+
+        .card {
+            width: 300px;
+            height: 100px;
+            background-color: #FEA1A1;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin: 20px;
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+        .card2{
+            width: 300px;
+            height: 100px;
+            background-color: #FEA1A1;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin: 20px;
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+        .card2:hover {
+            transform: scale(1.05);
+        }
+        h1{
+            font-size: 50px;
+            margin-top: 50px;
+            margin-left: 550px;
+        }
+
+        .card a {
+            text-decoration: none;
+            color: #333;
+        }
+        .card2 a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        .card h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .card2 h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .card p {
+            font-size: 16px;
+            color: #777;
+        }
+        .card2 p {
+            font-size: 16px;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="nav">
+          <a href="../pages/main.html" class="logo">Slamify</a>
+      
+          <div class="hamburger">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+          </div>
+        </nav>
+      </header>
+    <h1>Admin Page</h1>
+    <div class="container">
+        <div class="card">
+            <a href="createstatic.html">
+                <h2>Create Static Slams</h2>
+                <p>Create new static slams</p>
+            </a>
+        </div>
+        <div class="card">
+            <a href="create_card.php">
+                <h2>Static slams</h2>
+                <p>view and delete Static slams</p>
+            </a>
+        </div>
+        <div class="card">
+            <a href="feedback1.php">
+                <h2>View Feedbacks</h2>
+                <p>View and manage user feedbacks</p>
+            </a>
+        </div>
+        </div>
+        <div class="containerr">
+        <div class="card2">
+            <a href="monitor.php">
+                <h2>Website Analytics</h2>
+                <p>maintain the count</p>
+            </a>
+        </div>
+        <div class="card2">
+            <a href="adminaccess.html">
+                <h2>Admin Control Panel</h2>
+                <p>Add and delete admins</p>
+            </a>
+        </div>
+        </div>
+    <script src="../js/nav.js"></script>
+</body>
+</html>
